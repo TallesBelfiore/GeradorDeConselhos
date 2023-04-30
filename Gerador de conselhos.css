@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #202632;
+    color: aliceblue;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    border: 2px solid #fff;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.card .conselho h1{
+    color: rgb(9, 241, 222);
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.divisoria{
+    margin-top: 30px;
+}
+.divisoria img{
+    width: 100%;
+}
+
+.botao{
+    margin-top: 20px;
+    background-color: rgb(9, 241, 222);
+    border-radius: 50%;
+    padding: 10px;
+}
+.botao img{
+    width: 30px;
+}
+@media(max-width: 520px){
+    .card{
+        width: 70%;
+    }
+    .card .conselho h1{
+        font-size: 20px;
+    }
+}
+
